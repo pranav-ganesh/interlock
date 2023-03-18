@@ -1,0 +1,63 @@
+.flexContainerLeft {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image {
+    width: 7.5%;
+    height: auto;
+    max-width: 100vw;
+    max-height: 95vh;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+
+.overall {
+    display: flex;
+}
+
+.flexContainerRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.topRight {
+    display: flex;
+}
+
+.inner {
+    display: flex;
+}
+
+.last {
+    display: flex;
+}
+
+.lockBox {
+    display: flex;
+    flex-direction: column;
+}
